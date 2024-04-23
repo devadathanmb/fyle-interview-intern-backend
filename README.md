@@ -54,3 +54,12 @@ pytest -vvv -s tests/
 # pytest --cov
 # open htmlcov/index.html
 ```
+
+## Running using docker
+
+1. Make sure [docker](https://docs.docker.com/engine/install/) and [docker-compose](https://docs.docker.com/compose/install/) is installed on your machine
+2. Build and run the container using `docker compose up`
+3. Check the API status using 
+```bash
+curl http://localhost:7755
+```
